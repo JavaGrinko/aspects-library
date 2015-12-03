@@ -4,4 +4,4 @@
 ## Аспекты
 | Название класса | Описание |
 | ---------| -------- |
-| ValidateMongo | В проект Spring Data Mongo добавляет функцию валидации полей документов перед добавлением в коллекцию. Используется валидатор javax.validation.Validator и стандарт JSR-349 Bean Validation. |
+| [ValidateMongo](https://github.com/JavaGrinko/aspects-library/blob/master/src/main/java/javagrinko/aspects/ValidateMongo.java) | В проект Spring Data Mongo добавляет функцию валидации полей документов перед добавлением в коллекцию. Используется валидатор javax.validation.Validator и стандарт JSR-349 Bean Validation. |
