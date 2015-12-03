@@ -13,17 +13,16 @@ import javax.validation.Validator;
 import java.util.Set;
 
 /**
- * По умолчанию не поддерживается проверка полей перед сохранением
- * документов в коллекции Mongo. Это недоразумение исправляется
- * с помощью небольшого аспекта, использующего javax.validation.Validator
- * и стандарт JSR-349 Bean Validation
+ * РџРѕ СѓРјРѕР»С‡Р°РЅРёСЋ РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚СЃСЏ РїСЂРѕРІРµСЂРєР° РїРѕР»РµР№ РїРµСЂРµРґ СЃРѕС…СЂР°РЅРµРЅРёРµРј
+ * РґРѕРєСѓРјРµРЅС‚РѕРІ РІ РєРѕР»Р»РµРєС†РёРё Mongo. Р­С‚Рѕ РЅРµРґРѕСЂР°Р·СѓРјРµРЅРёРµ РёСЃРїСЂР°РІР»СЏРµС‚СЃСЏ
+ * СЃ РїРѕРјРѕС‰СЊСЋ РЅРµР±РѕР»СЊС€РѕРіРѕ Р°СЃРїРµРєС‚Р°, РёСЃРїРѕР»СЊР·СѓСЋС‰РµРіРѕ javax.validation.Validator
+ * Рё СЃС‚Р°РЅРґР°СЂС‚ JSR-349 Bean Validation
  * @author Artem Grinko
  * @email javagrinko@gmail.com
  */
 @Aspect
 @Component
 public class ValidateMongo {
-
     /**
      * @Bean
        LocalValidatorFactoryBean validator(){
