@@ -13,10 +13,10 @@ import javax.validation.Validator;
 import java.util.Set;
 
 /**
- * По умолчанию не поддерживается проверка полей перед сохранением
- * документов в коллекции Mongo. Это недоразумение исправляется
- * с помощью небольшого аспекта, использующего javax.validation.Validator
- * и стандарт JSR-349 Bean Validation
+ * В проекте Spring Data Mongo по умолчанию не поддерживается
+ * проверка полей перед сохранением документов в коллекции Mongo.
+ * Это недоразумение исправляется с помощью небольшого аспекта,
+ * использующего javax.validation.Validator и стандарт JSR-349 Bean Validation
  * @author Artem Grinko
  * @email javagrinko@gmail.com
  */
